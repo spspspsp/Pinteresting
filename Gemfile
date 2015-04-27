@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '2.1.5'
 # add bootstrap gem
 gem 'bootstrap-sass'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -20,7 +20,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
-
+gem 'devise', '~> 3.4.1'
 
 # Use sqlite3 as the database for Active Record
 group :development, :test do
@@ -28,7 +28,7 @@ group :development, :test do
 end
 
 group :production do 	
-	gem'pg' 
+	gem 'pg' 
 	gem 'rails_12factor'
 end
 
